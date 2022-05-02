@@ -7,4 +7,4 @@ def print_matrix_integer(matrix=[[]]):
                     print(f"{val:d}", end="")
                     if (val + 1 in row):
                         print(" ", end="")
-        print("$")
+        print()
