@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""declaration"""
+
 class Square:
-    ´´´ Class Square ´´´
+    """empty class square"""
     pass
