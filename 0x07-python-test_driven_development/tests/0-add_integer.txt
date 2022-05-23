@@ -1,6 +1,6 @@
-===============================
- How to Use doctest_in_help.py
- ===============================
+=======================
+     0-add_integer
+=======================
 
 This library is very simple, since it only has one function called
 ``my_function()``.
