@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def copy_list(l):
-    return new_l = l[:]
+def copy_list(lstr):
+    return lstr[:]
