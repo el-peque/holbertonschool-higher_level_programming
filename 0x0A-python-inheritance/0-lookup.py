@@ -1,3 +1,7 @@
 #!/usr/bin/python3
+"""function decl"""
+
+
 def lookup(obj):
-    return dir(obj)
+    """returns attriutes and methods of and object"""
+    return list(dir(obj))
