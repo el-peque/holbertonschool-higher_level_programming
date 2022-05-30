@@ -14,12 +14,12 @@ if __name__ == "__main__":
         exit(1)
 
     if op == "+":
-        res = (add(a,b))
+        res = (add(a, b))
     if op == "-":
-        res = (sub(a,b))
+        res = (sub(a, b))
     if op == "*":
-        res = (mul(a,b))
+        res = (mul(a, b))
     if op == "/":
-        res = (div(a,b))
+        res = (div(a, b))
 
     print(f"{a} {op} {b} = {res}")
