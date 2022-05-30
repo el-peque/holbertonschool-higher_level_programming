@@ -8,6 +8,6 @@ if __name__ == "__main__":
         print("1 argument:")
         print("1: ", sys.argv[1], sep="")
     else:
-        print(len(sys.argv) - 1, " arguments:")
+        print(len(sys.argv) - 1, " arguments:", sep="")
         for i in range(1, len(sys.argv)):
             print(i, ": ", sys.argv[i], sep="")
