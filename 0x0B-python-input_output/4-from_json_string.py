@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Function declaration"""
 
+
 import json
 
 
