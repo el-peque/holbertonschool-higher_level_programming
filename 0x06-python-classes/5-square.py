@@ -19,6 +19,7 @@ class Square:
         return self.__size**2
 
     def my_print(self):
+        """prints square"""
         if self.__size == 0:
             print()
         else:
@@ -26,6 +27,7 @@ class Square:
                 for n in range(self.__size):
                     print("#", end="")
                 print()
+
     @property
     def size(self):
         """returns size"""
