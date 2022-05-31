@@ -13,11 +13,11 @@
 
     >>> bg.integer_validator("float", 2.65)
     Traceback (most recent call last):
-    TypeError: name must be an integer
+    TypeError: float must be an integer
 
     >>> bg.integer_validator("onlyone")
     Traceback (most recent call last):
-    TypeError: name must be an integer
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
 
     >>> bg.integer_validator("", 18)
 
@@ -27,7 +27,7 @@
 
     >>> bg.integer_validator("zero", 0)
     Traceback (most recent call last):
-    ValueError: negative must be greater than 0
+    ValueError: zero must be greater than 0
 
     >>> bg.area()
     Traceback (most recent call last):
