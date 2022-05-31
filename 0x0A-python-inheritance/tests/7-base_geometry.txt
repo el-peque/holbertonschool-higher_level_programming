@@ -32,3 +32,15 @@
     >>> bg.area()
     Traceback (most recent call last):
     Exception: area() is not implemented
+
+    >>> bg.integer_validator("true", True)
+    Traceback (most recent call last):
+    TypeError: true must be an integer
+
+    >>> bg.integer_validator("None", None)
+    Traceback (most recent call last):
+    TypeError: None must be an integer
+
+    >>> bg.integer_validator("List", [5, 4])
+    Traceback (most recent call last):
+    TypeError: List must be an integer
