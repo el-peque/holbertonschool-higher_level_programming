@@ -10,11 +10,11 @@
     >>> my_list.print_sorted()
     [-10, 1]
 
-    >>> my_list = MyList("Hello!")
+    >>> my_list = MyList("Hello")
     >>> my_list
-    ['H', 'e', 'l', 'l', 'o', '!']
+    ['H', 'e', 'l', 'l', 'o']
     >>> my_list.print_sorted()
-    ['H', 'e', 'l', 'l', 'o', '!']
+    ['H', 'e', 'l', 'l', 'o']
 
     >>> my_list = MyList()
     >>> my_list.append(2)
