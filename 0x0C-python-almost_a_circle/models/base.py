@@ -31,3 +31,20 @@ class Base():
             list = [i.to_dictionary() for i in list_objs]
         with open(cls.__name__ + ".json", mode="w", encoding="utf-8") as f:
             f.write(cls.to_json_string(list))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """ returns the list of the JSON string representation json_string """
+        if json_string is None or len(json_string) == 0:
+            return []
+        return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """ returns an instance with all attributes already set """
+        if cls.__name__ == "Rectangle":
+            dummy = cls(2, 2, 2, 2, 2)
+        if cls.__name__ == "Square":
+            dummy = cls(2, 2, 2, 2)
+        dummy.update(**dictionary)
+        return dummy
