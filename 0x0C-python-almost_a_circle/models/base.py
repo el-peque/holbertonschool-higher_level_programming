@@ -76,7 +76,8 @@ class Base():
                     f.write(f"{dic.get('id')},{dic.get('width')},\
 {dic.get('height')},{dic.get('x')},{dic.get('y')}")
                 if cls.__name__ == "Square":
-                    f.write(f"{dic.get('id')},{dic.get('size')},{dic.get('x')},{dic.get('y')}")
+                    f.write(f"{dic.get('id')},{dic.get('size')},\
+{dic.get('x')},{dic.get('y')}")
 
     @classmethod
     def load_from_file_csv(cls):
