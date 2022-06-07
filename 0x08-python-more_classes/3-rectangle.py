@@ -49,9 +49,8 @@ class Rectangle:
 
     def __str__(self):
         """ overrides str method """
-        str = ""
         if self.__width == 0 or self.__height == 0:
-            return str
+            return ""
         for i in range(self.height):
             str += '#' * self.width + '\n' 
         return str[:-1]
