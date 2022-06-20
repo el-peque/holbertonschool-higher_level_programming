@@ -1,4 +1,4 @@
-# holbertonschool-higher_level_programming
+# Higher-level programming - Python
 
 | Project | Description |  
 | ----------- | ----------- |  
