@@ -1,6 +1,6 @@
 # Higher-level programming - Python
 
-| # | Project | Description | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> |  
+| # | Project | Description |  |  
 | ----------- | ----------- | ----------- | ----------- |  
 | 0 | [0x00-python-hello_world](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x00-python-hello_world "0x00-python-hello_world") | Python - Hello, World | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> |  
 | 1 | [0x01-python-if_else_loops_functions](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x01-python-if_else_loops_functions "0x01-python-if_else_loops_functions") | Python - if/else, loops, functions  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> |  
