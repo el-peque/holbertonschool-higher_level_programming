@@ -1,7 +1,7 @@
 # Higher-level programming - Python
 
-| # | Project | Description |  
-| ----------- | ----------- | ----------- |  
+| # | Project | Description | !(https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg) |  
+| ----------- | ----------- | ----------- | ----------- |  
 | 0 | [0x00-python-hello_world](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x00-python-hello_world "0x00-python-hello_world") | Python - Hello, World |  
 | 1 | [0x01-python-if_else_loops_functions](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x01-python-if_else_loops_functions "0x01-python-if_else_loops_functions") | Python - if/else, loops, functions  |
 | 2 | [0x02-python-import_modules](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x02-python-import_modules "0x02-python-import_modules") | Python - import & modules |
