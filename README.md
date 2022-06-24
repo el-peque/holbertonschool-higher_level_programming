@@ -1,6 +1,6 @@
 <h1 align="center">Higher-level programming - Python</h1>
 
-<align="center">
+<div align="center">
 | # | Project | Description |  |  
 | ----------- | ----------- | ----------- | ----------- |  
 | 0 | [0x00-python-hello_world](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x00-python-hello_world "0x00-python-hello_world") | Hello, World | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
@@ -16,3 +16,4 @@
 | A | [0x0A-python-inheritance](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x0A-python-inheritance "0x0A-python-inheritance") | Inheritance | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
 | B | [0x0B-python-input_output](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x0B-python-input_output "0x0B-python-input_output") | Input/Output  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
 | C | [0x0C-python-almost_a_circle](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x0C-python-almost_a_circle "0x0C-python-almost_a_circle") | Almost a circle | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+</div>
