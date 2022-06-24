@@ -3,7 +3,7 @@
 <div align="center">
 
 | # | Project | Description |  |  
-| ----------- | ----------- | ----------- | ----------- |  
+|: ----------- :| ----------- | ----------- | ----------- |  
 | 0 | [0x00-python-hello_world](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x00-python-hello_world "0x00-python-hello_world") | Hello, World | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
 | 1 | [0x01-python-if_else_loops_functions](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x01-python-if_else_loops_functions "0x01-python-if_else_loops_functions") | If/else, loops, functions  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
 | 2 | [0x02-python-import_modules](https://github.com/cabreraezequiel/holbertonschool-higher_level_programming/tree/main/0x02-python-import_modules "0x02-python-import_modules") | Import & modules | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
