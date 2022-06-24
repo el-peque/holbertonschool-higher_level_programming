@@ -1,4 +1,4 @@
-<align="center"># Higher-level programming - Python
+<h1 align="center">Higher-level programming - Python</h1>
 
 | # | Project | Description |  |  
 | ----------- | ----------- | ----------- | ----------- |  
