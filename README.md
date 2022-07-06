@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/81387977/155136726-0acad71c-42d2-41f0-ad62-784d315048b8.png" />
 </p>
-###
 <h1 align="center">Higher-level programming - Python</h1>
 
 <div align="center">
