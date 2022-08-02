@@ -12,7 +12,13 @@ if (myArgs.length < 2) {
     if (num > maxNum) {
       maxNum = num;
     }
-    if (num > auxNum && num <= maxNum && num < parseInt(myArgs[i + 1])) {
+    if (num < auxNum) {
+      auxNum = num;
+    }
+  }
+  for (i = 0; i < myArgs.length; i++) {
+    num = parseInt(myArgs[i]);
+    if (num > auxNum && num < maxNum) {
       auxNum = num;
     }
   }
