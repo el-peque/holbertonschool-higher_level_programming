@@ -15,6 +15,7 @@ if __name__ == '__main__':
     if (len(query_rows) > 0):
         for i in range(0, len(query_rows) - 1):
             print(f"{query_rows[i][0]}", end=', ')
-        print(query_rows[i + 1][0])
+        print(query_rows[i + 1][0], end='')
+    print()
     cur.close()
     db.close()
