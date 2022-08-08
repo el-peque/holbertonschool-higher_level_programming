@@ -4,6 +4,7 @@ state, using the database hbtn_0e_4_usa """
 import MySQLdb
 import sys
 from model_state import Base, State
+import SQLAlchemy
 
 
 if __name__ == '__main__':
