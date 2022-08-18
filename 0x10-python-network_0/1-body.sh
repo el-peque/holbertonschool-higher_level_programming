@@ -1,4 +1,4 @@
 #!/bin/bash
 # takes in a URL, sends a GET request to the URL,
 # and displays the body of the response
-curl -l -L "$1"
+curl -s -L "$1"
