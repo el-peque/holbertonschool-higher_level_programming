@@ -4,8 +4,7 @@ import urllib.request
 
 
 if __name__ == "__main__":
-    """script that fetches https://intranet.hbtn.io/status"""
     with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
         data = response.read()
-        print(f"Body response:\n\t- type: {type(data)}\n\t- content: {data}\n\t\
-- utf8 content: {data.decode('utf8')}")
+        print("Body response:\n\t- type: {}\n\t- content: {}\n\t- utf8 content:\
+ {}".format(type(data), data, data.decode('utf8')))
