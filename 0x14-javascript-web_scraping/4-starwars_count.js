@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const url = 'https://swapi-api.hbtn.io/api/films/';
+const url = process.argv[2];
 const axios = require('axios').default;
 let movie; let count = 0;
 axios.get(url)
