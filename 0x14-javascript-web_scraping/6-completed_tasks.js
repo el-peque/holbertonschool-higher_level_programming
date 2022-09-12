@@ -9,7 +9,9 @@ axios.get(url)
     let userId = response.data[0].userId;
     for (task of response.data) {
       if (task.userId !== userId) {
-        userTask[userId] = taskCount;
+        if (taskCount > 0) {
+          userTask[userId] = taskCount;
+        }
         userId = task.userId;
         taskCount = 0;
       }
@@ -17,6 +19,8 @@ axios.get(url)
         taskCount += 1;
       }
     }
-    userTask[userId] = taskCount;
+    if (taskCount > 0) {
+      userTask[userId] = taskCount;
+    }
     console.log(userTask);
   });
