@@ -9,10 +9,14 @@ async function getCharacter (url) {
     });
 }
 
-axios.get(url)
-  .then(function (response) {
-    let character;
-    for (character of response.data.characters) {
-      getCharacter(character);
-    }
-  });
+async function getFilm (url) {
+  await axios.get(url)
+    .then(async function (response) {
+      let character;
+      for (character of response.data.characters) {
+        await getCharacter(character);
+      }
+    });
+}
+
+getFilm(url);
